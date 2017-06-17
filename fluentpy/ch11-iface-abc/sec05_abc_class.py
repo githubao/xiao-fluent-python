@@ -74,7 +74,11 @@ class FrenchDeck(collections.MutableSequence):
 
 
 def main():
-    print('do sth')
+    """
+    FrenchDeck, MutableSequence, Sequence, Sized, Iterable, Container, object
+    :return: 
+    """
+    print(', '.join(c.__name__ for c in FrenchDeck.__mro__))
 
 
 if __name__ == '__main__':
