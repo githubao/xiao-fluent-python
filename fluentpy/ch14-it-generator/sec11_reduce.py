@@ -25,6 +25,16 @@ def reduce_run():
     """
 
 
+def f():
+    def do_yield(n):
+        yield n
+
+    x = 0
+    while True:
+        x += 1
+        yield from do_yield(x)
+
+
 def rand():
     return randint(1, 6)
 
