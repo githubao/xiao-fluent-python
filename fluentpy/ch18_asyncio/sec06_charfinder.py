@@ -164,8 +164,21 @@ def run(*args):
     print('({})'.format(index.status(query, n)))
 
 
+def tmp():
+    '''
+    CJK UNIFIED IDEOGRAPH-5305
+    :return: 
+    '''
+
+    # s = '包'
+    # s = '<img class="qqemoji qqemoji106" text="[捂脸]_web" src="/zh_CN/htmledition/v2/images/spacer.gif">'
+    s = '<img class="emoji emoji1f633" text="_web" src="/zh_CN/htmledition/v2/images/spacer.gif">'
+    print(unicodedata.name(s))
+
+
 def main():
-    run(('cat'))
+    # run(('cat'))
+    tmp()
 
 
 if __name__ == '__main__':
