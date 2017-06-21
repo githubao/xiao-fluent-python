@@ -30,8 +30,12 @@ CJK_CMP_PREFIX = 'CJK COMPATIBILITY IDEOGRAPH'
 
 sample_chars = ['$', 'A', 'a', '\u20a0', '\u20ac']
 
-CharDescription = namedtuple('CharDescription', 'code_str char name')
+_CharDescription = namedtuple('_CharDescription', 'code_str char name')
 QueryResult = namedtuple('QueryResult', 'count items')
+
+
+class CharDescription(_CharDescription):
+    __dict__ = property(_CharDescription._asdict)
 
 
 def tokenize(text):
