@@ -3,28 +3,40 @@ fluent python src code
 
 ## prologue
 
-- the python data model
+1. the python data model
 
 ## data structures
 
-- an array of sequences
-- dictionaries and sets
-- text versus bytes
+2. an array of sequences
+3. dictionaries and sets
+4. text versus bytes
 
 ## functions as objects
 
-- first-class functions
-- design patterns with first-class functions
-- function decorators and closures
+5. first-class functions
+6. design patterns with first-class functions
+7. function decorators and closures
 
 ## object-oriented idioms
 
-- object references, mutability and recycling
-- a pythonic object
-- sequence hacking, hashing and slicing
-- interfaces: from protocols to abcs
-- inheritance: for good or for worse
-- operator overloading: doing it right
+8. object references, mutability and recycling
+9. a pythonic object
+10. sequence hacking, hashing and slicing
+11. interfaces: from protocols to abcs
+12. inheritance: for good or for worse
+13. operator overloading: doing it right
 
+## control flow
+
+14. iterables, iterators and generators
+15. context managers and else blocks
+16. coroutines
+17. concurrency with futures
+18. concurrency with asyncio
+
+## metaprogramming
+19. data wrangling with dynamic attributes
+20. attribute descriptors
+21. class metaprogramming
 
 
